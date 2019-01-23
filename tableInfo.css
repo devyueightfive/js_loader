@@ -1,0 +1,68 @@
+
+/*
+table style
+ */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+/*
+body style
+*/
+body {
+    /*background: #9BC86A;*/
+    padding: 22px;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background: #34495E;
+    color: #fff;
+}
+
+
+table {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+td, th {
+    padding-left: 8px
+}
+
+thead tr {
+    height: 24px;
+    background: #7081ff;
+    font-size: 12px;
+}
+
+tbody tr {
+    height: 24px;
+    border-bottom: 1px solid #E3F1D5;
+    font-size: 12px;
+}
+
+tbody:last-child {
+    border: 0;
+}
+
+td, th {
+    text-align: left;
+}
+
+/*
+td.l, th.l {
+    text-align: left
+}
+
+td.c, th.c {
+    text-align: center
+}
+
+td.r, th.r {
+    text-align: right
+}
+*/
